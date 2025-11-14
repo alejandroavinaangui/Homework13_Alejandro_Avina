@@ -11,7 +11,7 @@ import SwiftUI
 struct Homework13_Alejandro_AvinaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: MapGame())
         }
     }
 }
